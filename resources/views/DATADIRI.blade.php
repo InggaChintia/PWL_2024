@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>KTP INGGA</title>
+    <title>DATA DIRI INGGA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+            color: black;
+            padding: 10px;
+        }
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #65b9f2;
+            border: 1px solid #dee2e6;
+            border-radius: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: black;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 5px;
+        }
+        td:first-child {
+            font-weight: bold;
+            width: 30%;
+        }
+        td:last-child {
+            width: 50%;
+        }
+    </style>
 </head>
+
 <body>
     <h1>--------DATA DIRI MAHASISWA--------</h1>
-        <div class="content">
+    <div class="content">
         <table>
             <tr>
                 <td>Nama</td>
